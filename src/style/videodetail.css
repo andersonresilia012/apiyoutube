@@ -1,0 +1,25 @@
+.loading {
+    padding-top: 20px;
+}
+
+.embed iframe {
+    width: 949px;
+    height: 534px;
+    left: 0;
+    top: 0;
+}
+
+.segment {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    .embed iframe {
+        width: 450px;
+        height: 250px;
+
+        left: 0;
+        top: 0;
+    }
+}

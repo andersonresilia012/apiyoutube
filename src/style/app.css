@@ -1,0 +1,18 @@
+.wide-column {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    .wide-column {
+        display : flex;
+        justify-content : center;
+        align-items : center;
+        flex-direction : column;
+
+        padding-left: 8px;
+        padding-right: 0;
+    }
+}

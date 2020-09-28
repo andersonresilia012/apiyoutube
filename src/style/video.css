@@ -1,0 +1,21 @@
+.video-item {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+
+    border-top: 1px solid white;
+
+    font-family: 'Montserrat', sans-serif;
+
+    max-width: 300px;
+
+    cursor: pointer;
+}
+
+.video-item .item {
+    display: flex;
+
+    flex-direction: column;
+
+    background: white;
+}
